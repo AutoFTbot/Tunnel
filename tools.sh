@@ -28,7 +28,7 @@ sudo apt update -y
 sudo apt-get remove --purge ufw firewalld -y 
 sudo apt-get remove --purge exim4 -y 
 sudo apt-get remove apache2 -y 
-sudo apt-get install vnstat
+#sudo apt-get install vnstat
 
 sudo apt install -y screen curl jq bzip2 gzip coreutils rsyslog iftop \
  htop zip unzip net-tools sed gnupg gnupg1 \
@@ -42,7 +42,7 @@ sudo apt install -y screen curl jq bzip2 gzip coreutils rsyslog iftop \
 curl -sSL https://deb.nodesource.com/setup_16.x | bash - 
 sudo apt-get install nodejs -y
 
-/etc/init.d/vnstat restart
+#/etc/init.d/vnstat restart
 wget -q https://humdi.net/vnstat/vnstat-2.6.tar.gz
 tar zxvf vnstat-2.6.tar.gz
 cd vnstat-2.6
