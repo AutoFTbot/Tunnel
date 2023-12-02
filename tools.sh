@@ -23,17 +23,17 @@ echo "Progress..."
 sleep 2
 
 sudo apt update -y
-#sudo apt update -y
-#sudo apt dist-upgrade -y
+sudo apt update -y
+sudo apt dist-upgrade -y
 sudo apt-get remove --purge ufw firewalld -y 
 sudo apt-get remove --purge exim4 -y 
-sudo apt-get remove apache2 -y 
-#sudo apt-get install vnstat
+apt install htop -y
+
 
 sudo apt install -y screen curl jq bzip2 gzip coreutils rsyslog iftop \
  htop zip unzip net-tools sed gnupg gnupg1 \
  bc sudo apt-transport-https build-essential dirmngr libxml-parser-perl neofetch screenfetch git lsof \
- openssl fail2ban tmux \
+ openssl openvpn easy-rsa fail2ban tmux \
  stunnel4 vnstat squid3 \
  dropbear  libsqlite3-dev \
  socat cron bash-completion ntpdate xz-utils sudo apt-transport-https \
@@ -42,6 +42,7 @@ sudo apt install -y screen curl jq bzip2 gzip coreutils rsyslog iftop \
 curl -sSL https://deb.nodesource.com/setup_16.x | bash - 
 sudo apt-get install nodejs -y
 
+/etc/init.d/vnstat restart
 wget -q https://humdi.net/vnstat/vnstat-2.6.tar.gz
 tar zxvf vnstat-2.6.tar.gz
 cd vnstat-2.6
@@ -64,4 +65,3 @@ yellow() { echo -e "\\033[33;1m${*}\\033[0m"; }
 yellow "Dependencies successfully installed..."
 sleep 3
 clear
-
