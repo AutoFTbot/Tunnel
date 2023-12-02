@@ -6,15 +6,10 @@ Mina Twice cantik bet dah
   ```html
  apt-get update && apt-get upgrade -y && apt dist-upgrade -y && update-grub && reboot
  ```
-## Installation Link Jika Sudah Punya Domain dan sudah Pointing ns domain<br>
+## Installation Link<br>
 
   ```html
-sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl && wget https://raw.githubusercontent.com/rizkihdyt6/asu/asu/setup1.sh && chmod +x setup1.sh && ./setup1.sh
-  ```
-## Installation Link Jika Belum Punya Domain<br>
-
-  ```html
-sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl && wget https://raw.githubusercontent.com/rizkihdyt6/asu/asu/setup1.sh && chmod +x setup2.sh && ./setup2.sh
+sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl && wget https://raw.githubusercontent.com/AutoFTbot/Tunnel/main/setup.sh && chmod +x setup.sh && ./setup.sh
   ```
 ## Fitur:
 <br>
@@ -25,8 +20,6 @@ sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.di
 ✅ XRAY TROJAN TCP XTLS 443<br>
 ✅ XRAY TROJAN TCP TLS 443<br>
 <br>
-Minat? PM ane aja :<a href="https://t.me/RizkiHdyt99" target=”_blank”><img src="https://img.shields.io/static/v1?style=for-the-badge&logo=Telegram&label=Telegram&message=Click%20Here&color=blue"></a><br>
-10k/bulan | free trial 3 hari
 
 ## SS
 

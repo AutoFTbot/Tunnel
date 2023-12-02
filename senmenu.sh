@@ -1,7 +1,7 @@
 #!/bin/bash
 export GREEN='\033[0;32m'
 NC='\e[0m'
-Repo="https://raw.githubusercontent.com/AutoFTbot/Tunnel/"
+Repo="https://raw.githubusercontent.com/AutoFTbot/Tunnel/main/"
 # // config Data
 echo -e "${GREEN}Config Data${NC}"
 wget -q -O /usr/bin/menuv "${Repo}Menu%20Final/menuv.sh"

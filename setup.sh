@@ -6,7 +6,7 @@ yell='\e[1;33m'
 tyblue='\e[1;36m'
 NC='\e[0m'
 COLOR1='\033[0;35m'
-Repo="https://raw.githubusercontent.com/AutoFTbot/Tunnel/"
+Repo="https://raw.githubusercontent.com/AutoFTbot/Tunnel/main/"
 Repo1="https://raw.githubusercontent.com/AutoFTbot/ip/main/"
 
 localip=$(hostname -I | cut -d\  -f1)

@@ -1,6 +1,6 @@
 #!/bin/bash
 #installer Websocker tunneling 
-Repo="https://raw.githubusercontent.com/AutoFTbot/Tunnel/"
+Repo="https://raw.githubusercontent.com/AutoFTbot/Tunnel/main/"
 cd
 apt install python -y
 
