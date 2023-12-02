@@ -10,7 +10,7 @@ trx=$(grep -c -E "^#! " "/etc/xray/config.json")
 let tra=$trx/2
 ssx=$(grep -c -E "^## " "/etc/xray/config.json")
 let ssa=$ssx/2
-Repo="https://raw.githubusercontent.com/AutoFTbot/Tunnel/"
+Repo="https://raw.githubusercontent.com/AutoFTbot/Tunnel/main/"
 Repo1="https://raw.githubusercontent.com/AutoFTbot/ip/main/"
 COLOR1='\033[0;35m'
 COLOR2='\033[0;39m'
@@ -99,7 +99,7 @@ echo -e "• ISP                 = $(cat /root/.isp)${NC}"
 echo -e "• Server Resource     = RAM = $persenmemori% | CPU = $persencpu%"
 echo -e "• Clients Name        = $Name"
 echo -e "• Expired Script VPS  = $Exp"
-echo -e "• Status Hari ini     = Mina Twice is Princess Ever"
+echo -e "• Status Hari ini     = Akan update Terus"
 echo -e ""
 echo -e "$COLOR1┌────────────────────────────────────────────────────────────┐${NC}"
 echo -e " ${COLOR2}[ SSH WebSocket${NC}: ${GREEN}ON ${NC}]  [ NGINX${NC}: ${status_nginx} ]  [ XRAY${NC}         : ${status_xray} ]"

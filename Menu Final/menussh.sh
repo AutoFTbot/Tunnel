@@ -18,7 +18,7 @@ IPurple='\033[0;95m'      # Purple
 ICyan='\033[0;96m'        # Cyan
 IWhite='\033[0;97m'       # White
 NC='\e[0m'
-Repo="https://raw.githubusercontent.com/AutoFTbot/Tunnel/"
+Repo="https://raw.githubusercontent.com/AutoFTbot/Tunnel/main/"
 Repo1="https://raw.githubusercontent.com/AutoFTbot/ip/main/"
 COLOR1='\033[0;35m'
 green() { echo -e "\\033[32;1m${*}\\033[0m"; }

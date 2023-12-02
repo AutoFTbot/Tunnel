@@ -1,7 +1,7 @@
 #!/bin/bash
 COLOR1='\033[0;35m'
 NC='\e[0m'
-Repo="https://raw.githubusercontent.com/AutoFTbot/Tunnel/"
+Repo="https://raw.githubusercontent.com/AutoFTbot/Tunnel/main/"
 Repo1="https://raw.githubusercontent.com/AutoFTbot/ip/main/"
 MYIP=$(wget -qO- ipinfo.io/ip);
 echo "Checking VPS"

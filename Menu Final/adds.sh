@@ -2,7 +2,7 @@
 red() { echo -e "\\033[32;1m${*}\\033[0m"; }
 COLOR1='\033[0;35m'
 NC='\e[0m'
-Repo="https://raw.githubusercontent.com/AutoFTbot/Tunnel/"
+Repo="https://raw.githubusercontent.com/AutoFTbot/Tunnel/main/"
 Repo1="https://raw.githubusercontent.com/AutoFTbot/ip/main/"
 # Getting
 MYIP=$(wget -qO- ipinfo.io/ip);
